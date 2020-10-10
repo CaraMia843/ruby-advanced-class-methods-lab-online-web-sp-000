@@ -52,7 +52,7 @@ class Song
   def self.new_from_filename(filename)
     title = filename.split("-")
     artist = title[0]
-    fullname, filetype = title[1](".")
+    fullname, filetype = title[1].split(".")
   end
 
 end
