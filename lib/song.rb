@@ -51,6 +51,7 @@ class Song
   
   def self.new_from_filename(filename)
     title = filename.split
+    artist = title[0]
     
   end
 
