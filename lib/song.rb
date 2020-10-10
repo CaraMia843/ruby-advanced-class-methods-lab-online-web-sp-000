@@ -55,7 +55,7 @@ class Song
     fullname, filetype = title[1].split(".")
     
     song = self.new 
-    song.artist = artist_name
+    song.artist_name = artist_name
     song.name = fullname 
     song
   end
