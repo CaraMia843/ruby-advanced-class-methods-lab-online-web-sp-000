@@ -60,7 +60,7 @@ class Song
     song
   end
   
-  def self.create_from_filename(name)
+  def self.create_from_filename(filename)
     title = filename.split(" - ")
     artist_name = title[0]
     fullname, filetype = title[1].split(".")
